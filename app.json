@@ -1,7 +1,6 @@
 {
   "name": "DocuSign Webhook PHP recipe",
   "description": "Receive webhook updates about your envelope and recipient status changes",
-  "repository": "https://github.com/LarryKlugerDS/azure-webhook",
   "addons": [],
   "env": {
       "DS_USER_EMAIL": {
