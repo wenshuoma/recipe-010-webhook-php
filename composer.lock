@@ -4,61 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8f05c9c8936d00bc3f9b7dfb45c3fbdf",
-    "content-hash": "6925a632b7c4a804b7dd3f19f59bc703",
-    "packages": [
-        {
-            "name": "docusign/esign-client",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/docusign/docusign-php-client.git",
-                "reference": "9967d9b65e814a7e8e6e530f55d3c5386d648260"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/docusign/docusign-php-client/zipball/9967d9b65e814a7e8e6e530f55d3c5386d648260",
-                "reference": "9967d9b65e814a7e8e6e530f55d3c5386d648260",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "satooshi/php-coveralls": "~0.6.1",
-                "squizlabs/php_codesniffer": "~2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "DocuSign\\eSign\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "DocuSign",
-                    "homepage": "https://www.docusign.com/developer-center"
-                }
-            ],
-            "description": "The DocuSign PHP library makes integrating DocuSign into your websites a super fast and painless process. The library is open sourced on GitHub, look for the docusign-php-client repository. Join the eSign revolution!",
-            "homepage": "https://www.docusign.com/developer-center",
-            "keywords": [
-                "api",
-                "php",
-                "sdk",
-                "swagger"
-            ],
-            "time": "2016-02-19 21:58:23"
-        }
-    ],
+    "hash": "f1f6640d0e2b34f9c9fdb03328081028",
+    "content-hash": "26fb54265b99b10b8b785a199fbc3ff9",
+    "packages": [],
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
