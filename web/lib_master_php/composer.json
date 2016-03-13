@@ -1,0 +1,8 @@
+{
+    "require": {
+        "docusign/esign-client": "^2.0"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+} 

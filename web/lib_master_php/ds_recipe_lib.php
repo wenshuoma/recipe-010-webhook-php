@@ -62,7 +62,7 @@ class DS_recipe_lib {
 	########################################################################
 	
 	public function login() {
-		// Login (to retrieve baseUrl and accountId)
+		// // Login (to retrieve baseUrl and accountId)
 		$config = new DocuSign\eSign\Configuration();
 	 	$config->setHost($this->ds_api_url);
 	 	$config->addDefaultHeader("X-DocuSign-Authentication", $this->ds_auth_header);
@@ -137,7 +137,7 @@ class DS_recipe_lib {
 		// MS Azure App Service enable you to trust just the CAs that you
 		// choose. So that's what we're doing here.
 		// The usual list of trusted CAs is from Mozilla via the Curl
-		// people.
+		// people. See 
 	
 		curl_setopt($curl, CURLOPT_CAINFO, getcwd() . "/assets_master/ca-bundle.crt");
 	}
@@ -181,8 +181,8 @@ class DS_recipe_lib {
 	
 	public function get_temp_email_access($email) {
 		// just create something unique to use with maildrop.cc
-		// Read the email at http://maildrop.cc/inbox/<mailbox_name>
-		$url = "https://mailinator.com/inbox.jsp?to=";
+		// Read the email at https://mailinator.com/inbox2.jsp?public_to=<mailbox_name>
+		$url = "https://mailinator.com/inbox2.jsp?public_to=";
 		$parts = explode("@", $email);
 		if ($parts[1] !== $this->temp_email_server) {
 			return false;
