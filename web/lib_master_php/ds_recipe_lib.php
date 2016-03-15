@@ -175,6 +175,7 @@ class DS_recipe_lib {
 		
 		$email = (string)$this->email_count . (string)time() . $ip;
 		$email = base64_encode ($email);
+		$email = "a" . preg_replace("/[^A-Za-z0-9]/", '', $email); // Strip non alphanumeric
 		
 		return $email . "@" . $this->temp_email_server;
 	}
