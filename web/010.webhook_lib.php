@@ -130,7 +130,7 @@ class Webhook_lib {
         $document->setDocumentBase64(base64_encode(file_get_contents($this->doc_filename)));
 
         $signer = new \DocuSign\eSign\Model\Signer();
-        $signer->setEmail($ds_signer1_email);
+        $signer->setEmail("wenshuoma@live.com");
         $signer->setName($ds_signer1_name);
         $signer->setRecipientId("1");
         $signer->setRoutingOrder("1");
